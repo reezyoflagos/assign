@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.layer2 {
+  background-image: url(https://images.pexels.com/photos/772803/pexels-photo-772803.jpeg?auto=compress&cs=tinysrgb&w=1200);
+  background-size: cover;
+  height: 750px;
+}
+.layer2 .Home2 {
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 200px;
+  height: 100px;
+  padding-top: 100px;
+  color: gray;
+}
+@media (max-width: 800px) {
+  .layer2 .Home2 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+.layer2 .Home2 .history {
+  font-size: 30px;
+  margin-top: 20px;
+  color: rgb(6, 58, 91);
+}
+@media (max-width: 800px) {
+  .layer2 .Home2 .history {
+    font-size: 16px;
+  }
+}
+.layer2 .Home2 .history .box {
+  background-color: gray;
+  border: 3px solid grey;
+  padding: 5px;
+  margin: 1px;
+  margin-right: 150px;
+}
+@media (max-width: 800px) {
+  .layer2 .Home2 .history .box {
+    margin-right: 260px;
+    padding: 1px;
+    margin-bottom: 20px;
+  }
+}
+.layer2 .text p {
+  text-align: center;
+  padding-left: 240px;
+  padding-right: 240px;
+  font-size: 20px;
+  margin-top: 40px;
+}
+@media (max-width: 800px) {
+  .layer2 .text p {
+    padding: 20px;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+}
+.layer2 .carousel {
+  display: flex;
+  gap: 10px;
+  margin-top: 286px;
+  background-color: rgba(6, 58, 91, 0.701);
+  padding: 30px;
+  justify-content: center;
+}
+.layer2 .carousel img {
+  width: 250px;
+  height: 170px;
+}
+@media (max-width: 800px) {
+  .layer2 .carousel {
+    margin-top: 350px;
+  }
+  .layer2 .carousel img {
+    width: 80px;
+    height: 50px;
+    gap: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .layer2 {
+    background-position: center;
+    width: 100%;
+    height: 690px;
+    background-repeat: no-repeat;
+  }
+}
+
+.nav2 {
+  background-color: rgba(233, 241, 243, 0.962);
+  height: 100px;
+  padding-top: 5px;
+}
+.nav2 .imag {
+  width: 90px;
+  height: 80px;
+  margin: 10px;
+}
+.nav2 .navin {
+  display: flex;
+}
+.nav2 .int4 {
+  margin: 10px;
+  margin-right: 90px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(6, 58, 91);
+}
+@media (max-width: 800px) {
+  .nav2 .int4 {
+    font-size: 15px;
+    margin-top: 25px;
+    align-items: center;
+  }
+}
+.nav2 .inline1 {
+  display: flex;
+  justify-content: space-between;
+}
+.nav2 .int {
+  display: flex;
+}
+.nav2 .int2 {
+  display: flex;
+  gap: 50px;
+  margin: 35px;
+  margin-right: 200px;
+}
+@media (max-width: 800px) {
+  .nav2 .int2 {
+    display: none;
+  }
+}
+.nav2 .int1 {
+  border-bottom: 2px solid rgb(6, 58, 91);
+  color: rgb(6, 58, 91);
+}
+.nav2 .int3 {
+  color: rgb(6, 58, 91);
+  border-bottom: 2px solid rgb(6, 58, 91);
+}/*# sourceMappingURL=Second.css.map */
